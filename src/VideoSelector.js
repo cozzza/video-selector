@@ -2,8 +2,6 @@ import { useState, useRef, useEffect } from 'react';
 import { frames, audios } from './arrays';
 import './styles.css';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
-import GraphicEqIcon from '@mui/icons-material/GraphicEq';
-import EqualizerIcon from '@mui/icons-material/Equalizer';
 
 export const VideoSelector = () => {
   const [audioList, setAudioList] = useState([]);
